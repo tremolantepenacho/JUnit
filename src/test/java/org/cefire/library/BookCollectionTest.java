@@ -3,7 +3,6 @@ package org.cefire.library;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
 
 public class BookCollectionTest {
     @Test
@@ -30,5 +29,13 @@ public class BookCollectionTest {
 
         books.find(titleToLocate).forEach((Book book) ->
                 Assertions.assertTrue(book.getTitle().contains(titleToLocate)));
+    }
+
+    @Test
+    public void shouldFindNothingEmptyCollection(){
+        Book[] nothing={};
+        final String titleToLocate = "";
+        BookCollection empty=new BookCollection(nothing);
+        Assertions.assertTrue(empty.find(titleToLocate).isEmpty());
     }
 }
