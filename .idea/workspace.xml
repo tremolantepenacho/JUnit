@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a02d23-a3a5-4cc9-b839-cdece400891a" name="Changes" comment="Parte guiada del ejercicio">
+    <list default="true" id="86a02d23-a3a5-4cc9-b839-cdece400891a" name="Changes" comment="Test de búsqueda por título y BookCollection vacía">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cefire/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cefire/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cefire/library/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cefire/library/BookCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/cefire/library/BookCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cefire/library/BookCollectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,9 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookCollectionTest.shouldFindCopiesOfABook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cefire.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cefire.library" />
+      <option name="MAIN_CLASS_NAME" value="org.cefire.library.BookCollectionTest" />
+      <option name="METHOD_NAME" value="shouldFindCopiesOfABook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BookCollectionTest" />
+        <item itemvalue="JUnit.BookCollectionTest.shouldFindCopiesOfABook" />
         <item itemvalue="JUnit.BookCollectionTest.shouldFindABookByISBN" />
       </list>
     </recent_temporary>
@@ -108,7 +127,8 @@
       <workItem from="1674499525940" duration="1765000" />
       <workItem from="1674501913585" duration="297000" />
       <workItem from="1674502222907" duration="307000" />
-      <workItem from="1674581482389" duration="658000" />
+      <workItem from="1674581482389" duration="1478000" />
+      <workItem from="1675706918696" duration="1936000" />
     </task>
     <task id="LOCAL-00001" summary="Parte guiada del ejercicio">
       <created>1674502189430</created>
@@ -117,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674502189430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test de búsqueda por título y BookCollection vacía">
+      <created>1674582196103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674582196103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parte guiada del ejercicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parte guiada del ejercicio" />
+    <MESSAGE value="Test de búsqueda por título y BookCollection vacía" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test de búsqueda por título y BookCollection vacía" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
